@@ -1,0 +1,21 @@
+FIRSTNAME,LASTNAME,TOTALPRICE,DEPOSITEPAID,CHECKIN,CHECKOUT,ADDITIONALNEEDS
+Sabrina,Cartmel,900,false,Check in,Check out,22/05/2023,10/02/2023,Breakfast
+Oralla,Strugnell,900,true,Check in,Check out,22/05/2023,20/03/2023,Tea
+Urbano,Stockoe,500,false,Check in,Check out,22/05/2023,20/03/2023,Breakfast
+Kalindi,Postlewhite,500,false,Check in,Check out,01/02/2023,30/05/2023,Tea
+Nelia,Sibley,800,true,Check in,Check out,01/02/2023,30/05/2023,Tea
+Philomena,Sinott,500,false,Check in,Check out,22/05/2023,30/05/2023,Tea
+Gal,Brocket,800,false,Check in,Check out,12/03/2023,30/05/2023,Breakfast
+Austine,Rosbottom,900,false,Check in,Check out,22/05/2023,30/05/2023,Tea
+Annaliese,Grover,500,true,Check in,Check out,22/05/2023,30/05/2023,Tea
+Renata,Corran,800,true,Check in,Check out,12/03/2023,20/03/2023,Dinner
+Delinda,Hagger,800,false,Check in,Check out,22/05/2023,20/03/2023,Dinner
+Melva,Jess,800,true,Check in,Check out,01/02/2023,20/03/2023,Dinner
+Elwira,McClunaghan,800,true,Check in,Check out,22/05/2023,30/05/2023,Dinner
+Laure,Heamus,800,false,Check in,Check out,01/02/2023,10/02/2023,Breakfast
+Harlin,Killeen,500,true,Check in,Check out,22/05/2023,10/02/2023,Breakfast
+Sondra,Cristofvao,800,true,Check in,Check out,01/02/2023,20/03/2023,Tea
+Fionnula,Broomhead,800,true,Check in,Check out,12/03/2023,30/05/2023,Tea
+Ferdy,Kydde,900,true,Check in,Check out,12/03/2023,30/05/2023,Tea
+Ansell,Hubbert,800,true,Check in,Check out,01/02/2023,30/05/2023,Dinner
+Anthony,Habbes,800,false,Check in,Check out,22/05/2023,30/05/2023,Dinner

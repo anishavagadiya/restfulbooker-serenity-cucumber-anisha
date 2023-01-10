@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="3" name="HTTP Request Method Tests on Restful Booker" skipped="0" tests="4" time="14.8" timestamp="2023-01-10T22:26:17.327Z[Europe/London]"><testcase name="Check if user can access all booking Ids"/><testcase name="Check if user can create a new booking"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.cucumber.steps.MyStepdefs.iMustGetBackAValidResponseCode(MyStepdefs.java:50)&#13;
+✽.Then I must get back a valid response code 201(restfulbooker.feature:10)&#13;
+</system-err></testcase><testcase name="Check if user can update an existing booking"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.bookininfo.BookingSteps.updateBookingWithID(BookingSteps.java:76)&#13;
+com.restful.booker.cucumber.steps.MyStepdefs.iSendPutRequestWithFirstNameLastNameTotalpriceDepositpaidCheckinCheckoutAdditionalneeds(MyStepdefs.java:69)&#13;
+✽.When I send Put request with  firstName"&lt;firstName&gt;", lastName"&lt;lastName&gt;", totalprice "&lt;totalprice&gt;", depositpaid "&lt;depositpaid&gt;", checkin "&lt;checkin&gt;", checkout"&lt;checkout&gt;" additionalneeds "&lt;additionalneeds&gt;"(restfulbooker.feature:17)&#13;
+</system-err></testcase><testcase name="Check if user can delete an existing record"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restful.booker.cucumber.steps.MyStepdefs.iShouldSeeTheResponseCode(MyStepdefs.java:80)&#13;
+✽.Then I should see the response code 201(restfulbooker.feature:22)&#13;
+</system-err></testcase></testsuite>
